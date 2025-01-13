@@ -1,8 +1,6 @@
 # stj-landing
 
-# 🎯 enhance your CV by tailoring it to match job postings, boosting your employment prospects.
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎯 enhance your CV by tailoring it to match job postings, boosting your employment prospects.
 
 ## Getting Started
 
