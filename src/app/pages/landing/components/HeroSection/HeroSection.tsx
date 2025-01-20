@@ -86,7 +86,7 @@ export function HeroSection({
 						</GradientText>
 					</div>
 					{/* Description */}
-					<p className="text-md relative z-10 max-w-[550px] animate-appear font-medium text-muted-foreground opacity-0 delay-100 sm:text-xl">
+					<p className="text-kg text-2xl leading-snug relative z-10 max-w-[550px] animate-appear font-medium text-muted-foreground opacity-0 delay-100 text-black-800 italic">
 						{description}
 					</p>
 
