@@ -98,6 +98,10 @@ export default {
 				"appear-zoom": "appear-zoom 0.5s ease-out forwards",
 				gradient: "gradient var(--animation-duration, 8s) linear infinite",
 			},
+			backgroundImage: {
+				"grid-pattern": "",
+				"grid-pattern-light": "",
+			},
 		},
 	},
 	plugins: [addVariablesForColors, require("tailwindcss-animate")],

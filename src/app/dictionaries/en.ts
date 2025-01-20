@@ -5,9 +5,9 @@ export const en = {
 			hero: {
 				heading: "It's time to get it!",
 				description:
-					"1. Upload your CV 2. Link you offer 3. Let the magic happen",
+					"Step into the world of tailored perfection where your CV is reimagined and crafted to captivate",
 			},
-			feature: {
+			features: {
 				heading: "Feature",
 				description: "all the stufff",
 			},
