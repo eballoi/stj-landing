@@ -1,4 +1,5 @@
 export const en = {
+	appName: "AircraftCV",
 	pages: {
 		appName: "Snipe That Job",
 		landing: {
