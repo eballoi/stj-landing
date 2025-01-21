@@ -2,28 +2,16 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Twitter, Instagram, Github } from "lucide-react";
+import { Logo } from "./logo";
 
 export function Footer() {
 	return (
 		<footer className="bg-gray-100 border-t">
 			<div className="container mx-auto px-4 py-8 md:py-12">
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-					{/* Logo and Waitlist Section */}
 					<div className="md:col-span-2">
 						<Link href="/" className="flex items-center mb-4">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								strokeWidth="2"
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								className="h-6 w-6 mr-2"
-							>
-								<path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
-							</svg>
-							<span className="font-bold text-xl">YourLogo</span>
+							<Logo size={12} />
 						</Link>
 						<p className="text-gray-600 mb-4">
 							Join our waitlist to get early access!
@@ -112,7 +100,7 @@ export function Footer() {
 				{/* Bottom Section */}
 				<div className="mt-8 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
 					<p className="text-gray-600 text-sm mb-4 md:mb-0">
-						© {new Date().getFullYear()} YourCompany. All rights reserved.
+						© {new Date().getFullYear()} AircrafterCV. All rights reserved.
 					</p>
 					<div className="flex space-x-4">
 						<Link href="#" className="text-gray-600 hover:text-gray-900">

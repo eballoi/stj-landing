@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background Rectangle -->
+  <rect x="0" y="0" width="120" height="120" rx="15" fill="#DAB6FF" /> <!-- Light purple background -->
+
+  <!-- Large Rounded Rectangle for Content -->
+  <rect x="20" y="35" width="80" height="50" rx="10" fill="#000" /> <!-- Black content block -->
+
+  <!-- Smaller Document Icon -->
+  <rect x="70" y="40" width="20" height="30" rx="2" fill="#DAB6FF" /> <!-- Light purple document -->
+  <line x1="73" y1="45" x2="87" y2="45" stroke="#000" stroke-width="1.5" /> <!-- Document line 1 -->
+  <line x1="73" y1="50" x2="87" y2="50" stroke="#000" stroke-width="1.5" /> <!-- Document line 2 -->
+  <line x1="73" y1="55" x2="87" y2="55" stroke="#000" stroke-width="1.5" /> <!-- Document line 3 -->
+
+  <!-- Horizontal Rectangle -->
+  <rect x="30" y="50" width="30" height="15" rx="2" fill="#DAB6FF" /> <!-- Purple horizontal bar -->
+</svg>
