@@ -52,6 +52,7 @@ export function HeroSection({
 	const { resolvedTheme } = useTheme();
 	const imageSrc = resolvedTheme === "light" ? image.light : image.dark;
 	const { appName } = en;
+
 	return (
 		<section
 			className={cn(
