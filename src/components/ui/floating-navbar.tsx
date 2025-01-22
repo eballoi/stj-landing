@@ -10,6 +10,8 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
+import { Logo } from "./logo";
+import { en } from "@/app/dictionaries/en";
 
 const navItems = [
 	{ name: "Home", href: "/#home" },
@@ -19,6 +21,7 @@ const navItems = [
 ];
 
 export function FloatingNavbar() {
+	const { appName } = en;
 	const [isScrolled, setIsScrolled] = useState(false);
 	const [activeSection, setActiveSection] = useState("");
 
@@ -60,7 +63,7 @@ export function FloatingNavbar() {
 	}, []);
 
 	return (
-		<div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-5xl px-4">
+		<div className="fixed top-4 right-0 md:left-1/2  md:transform md:-translate-x-1/2 z-50 md:w-full md:max-w-5xl px-4">
 			<nav
 				className={`flex items-center justify-between p-2 rounded-full transition-all duration-300 ${
 					isScrolled
@@ -68,9 +71,9 @@ export function FloatingNavbar() {
 						: "bg-white/50 backdrop-blur-sm"
 				}`}
 			>
-				<Link href="/#home" className="text-xl font-bold text-gray-900 px-4">
-					CVTailor
-				</Link>
+				<div className="hidden md:flex">
+					<Logo size={48} />
+				</div>
 
 				{/* Desktop Navigation */}
 				<div className="hidden md:flex items-center space-x-1">
@@ -112,7 +115,7 @@ export function FloatingNavbar() {
 									href="/#home"
 									className="text-2xl font-bold text-gray-900"
 								>
-									CVTailor
+									{appName}
 								</Link>
 								<SheetTrigger asChild>
 									<Button variant="ghost" size="icon" className="rounded-full">

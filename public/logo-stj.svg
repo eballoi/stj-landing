@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="200"
+   height="200"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="bullseye_with_document_bottom_right.svg"
+   inkscape:version="1.2-beta (1b65182c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs26">
+    <linearGradient
+       id="linearGradient8583"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#dab6ff;stop-opacity:1;"
+         offset="0"
+         id="stop8581" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4809">
+      <stop
+         style="stop-color:#e0aaff;stop-opacity:1;"
+         offset="0"
+         id="stop4805" />
+      <stop
+         style="stop-color:#e3b2ff;stop-opacity:0;"
+         offset="1"
+         id="stop4807" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4809"
+       id="linearGradient4811"
+       x1="0"
+       y1="100"
+       x2="200"
+       y2="100"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.1044728"
+     inkscape:cx="1.187946"
+     inkscape:cy="120.9329"
+     inkscape:window-width="1728"
+     inkscape:window-height="989"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g20" />
+  <circle
+     cx="100"
+     cy="100"
+     r="100"
+     fill="#DAB6FF"
+     id="circle2"
+     style="fill:url(#linearGradient4811);fill-opacity:1" />
+  <circle
+     cx="100"
+     cy="100"
+     r="80"
+     fill="black"
+     id="circle4"
+     style="fill:#000000;fill-opacity:0.69999999" />
+  <circle
+     cx="100"
+     cy="100"
+     r="60"
+     fill="#DAB6FF"
+     id="circle6"
+     style="fill:#dab6ff;fill-opacity:1" />
+  <circle
+     cx="100"
+     cy="100"
+     r="40"
+     fill="black"
+     id="circle8"
+     style="fill:#000000;fill-opacity:0.69999999" />
+  <g
+     transform="matrix(1.4015137,0,0,1.3785404,165.57975,166.03921)"
+     id="g20">
+    <rect
+       x="-20"
+       y="-30"
+       width="40"
+       height="50"
+       fill="#dab6ff"
+       stroke="#000000"
+       stroke-width="2"
+       id="rect10"
+       style="display:inline;stroke:#333333;stroke-opacity:0.99607843;stroke-width:2.00002937;stroke-dasharray:none;stroke-linejoin:bevel;fill:#dab6ff;fill-opacity:1" />
+    <line
+       x1="-10.376006"
+       y1="-20"
+       x2="16"
+       y2="-20"
+       stroke="#000000"
+       stroke-width="1.36182"
+       id="line12"
+       style="fill:#000000;fill-opacity:0.69803923;stroke:#000000;stroke-opacity:0.69803923" />
+    <line
+       x1="-16"
+       y1="-10"
+       x2="16"
+       y2="-10"
+       stroke="#000000"
+       stroke-width="1.5"
+       id="line14"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0.69803923" />
+    <line
+       x1="-16"
+       y1="0"
+       x2="16"
+       y2="0"
+       stroke="#000000"
+       stroke-width="1.5"
+       id="line16"
+       style="stroke:#000000;stroke-opacity:0.69803923" />
+    <line
+       x1="-16"
+       y1="10"
+       x2="16"
+       y2="10"
+       stroke="#000000"
+       stroke-width="1.5"
+       id="line18"
+       style="stroke:#000000;stroke-opacity:0.69803923" />
+  </g>
+</svg>
