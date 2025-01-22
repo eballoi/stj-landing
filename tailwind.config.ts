@@ -61,6 +61,9 @@ export default {
 				sm: "calc(var(--radius) - 4px)",
 			},
 			keyframes: {
+				marquee: {
+					to: { transform: "translateX(-50%)" },
+				},
 				appear: {
 					"0%": {
 						opacity: "0",
@@ -97,6 +100,7 @@ export default {
 				appear: "appear 0.5s ease-out forwards",
 				"appear-zoom": "appear-zoom 0.5s ease-out forwards",
 				gradient: "gradient var(--animation-duration, 8s) linear infinite",
+				marquee: "marquee var(--duration, 30s) linear infinite",
 			},
 			backgroundImage: {
 				"grid-pattern": "",
