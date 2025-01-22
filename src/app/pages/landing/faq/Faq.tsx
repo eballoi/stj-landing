@@ -6,27 +6,13 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 
-// export const Faq: FC = () => {
-// 	const { faqs } = en.pages.landing;
-// 	return (
-// 		<div className="flex flex-col items-center gap-y-12">
-// 			<div className="text-6xl font-bold">FAQ</div>
-// 			<Accordion type="single" collapsible className="w-7/12">
-// 				{faqs?.map((faq, index) => (
-// 					<AccordionItem value={`item-${index}`} key={index}>
-// 						<AccordionTrigger>{faq.title}</AccordionTrigger>
-// 						<AccordionContent>{faq.description}</AccordionContent>
-// 					</AccordionItem>
-// 				))}
-// 			</Accordion>
-// 		</div>
-// 	);
-// };
-
 export function Faq() {
 	const { faqs } = en.pages.landing;
 	return (
-		<section className="py-16 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100">
+		<section
+			id="faq"
+			className="py-16 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100"
+		>
 			<div className="container mx-auto px-4">
 				<div className="text-center mb-12">
 					<h2 className="inline-block text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-2">

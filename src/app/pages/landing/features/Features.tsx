@@ -63,5 +63,9 @@ const content = [
 ];
 
 export const Features: FC = () => {
-	return <StickyScroll content={content} />;
+	return (
+		<section id="features">
+			<StickyScroll content={content} />
+		</section>
+	);
 };

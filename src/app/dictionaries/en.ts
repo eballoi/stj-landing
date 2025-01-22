@@ -1,7 +1,6 @@
 export const en = {
-	appName: "AircraftCV",
+	appName: "Snipe That Job",
 	pages: {
-		appName: "Snipe That Job",
 		landing: {
 			hero: {
 				heading: "It's time to get it!",

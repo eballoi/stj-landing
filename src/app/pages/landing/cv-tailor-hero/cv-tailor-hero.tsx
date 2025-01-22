@@ -4,7 +4,10 @@ import { ArrowRight, FileText, Zap } from "lucide-react";
 
 export function CVTailorHero() {
 	return (
-		<section className="relative overflow-hidden bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100">
+		<section
+			id="home"
+			className="relative overflow-hidden bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100"
+		>
 			<div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10"></div>
 			<div className="container mx-auto px-4 py-20 sm:py-24 lg:py-32">
 				<div className="flex flex-col lg:flex-row items-center">
